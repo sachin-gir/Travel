@@ -1,0 +1,129 @@
+header{
+    height:20vh;
+    
+    padding-left: 150px;
+    padding-right: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    text-decoration:double;
+}
+
+.logo{
+    height: 20vh;
+    width:550px;
+    background-image: url(industrypage-removebg-preview.png);
+    background-size: cover;
+    background-position: center;
+    
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:#03284f;
+}
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+    align-items:center;
+    
+}
+.package {
+    background: white;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+.package:hover {
+    transform: scale(1.03);
+}
+.package h2 {
+    color: #2c3e50;
+}
+.price {
+    font-size: 20px;
+    color: #e74c3c;
+    font-weight: bold;
+}
+
+.reviews{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.cus{
+    
+    width:300px;
+    border-radius: 10px;
+
+    height:60px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    background-color:#6587f7;
+}
+
+footer{
+    height: 50px;
+    width:100%vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:30px;
+    background-color: black;
+    background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+
+}
+.socials{
+ 
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    width:100vw;
+    height:60px;
+    display:flex;
+    justify-content: left;
+    gap: 10px;
+    align-items: center;
+    
+    
+    
+}
+.statement{
+    
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+  
+
+}
+
+
+.bhats2{
+    background-image: url(facebook-logo-removebg-preview.png);
+    background-size: contain;
+    height:62px;
+    width:100px;
+    background-repeat: no-repeat;
+}
+
+.bhats1{
+    background-image: url(insta.png);
+    background-size: contain;
+    height:70px;
+    width:100px;
+    background-repeat: no-repeat;
+}
+
+ 
